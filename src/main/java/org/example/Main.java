@@ -27,6 +27,8 @@ public class Main {
         System.out.println(phoneSamsung.sendMessage(458816799, 482944395, 145888412, 188718166, 518811835));
         System.out.println(phoneXiaomi.sendMessage(485684225, 471155655));
 
-
+        //Task 3.
+        Ball ball = new Ball(5);
+        System.out.println(ball.getVolume());
     }
 }
