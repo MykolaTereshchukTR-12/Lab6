@@ -38,7 +38,7 @@ public class Phone {
         this.weight = _weight;
     }
 
-    public Phone(int _number, String _model){
+    public Phone(int _number, String _model) {
         this.number = _number;
         this.model = _model;
     }
@@ -49,7 +49,7 @@ public class Phone {
         return _fullName + " is calling you. ";
     }
 
-    public String receiveCall(String _fullName, int _number){
+    public String receiveCall(String _fullName, int _number) {
         return _fullName + " is calling you, his number is " + _number + ".";
     }
 

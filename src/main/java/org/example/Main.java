@@ -30,5 +30,29 @@ public class Main {
         //Task 3.
         Ball ball = new Ball(5);
         System.out.println(ball.getVolume());
+
+        //Task 4.
+        Sedan sedan = new Sedan();
+        sedan.setModel("Honda Accord");
+        sedan.setColor("blue");
+        sedan.setMaxSpeed(100);
+        sedan.setDrives("front wheel");
+        sedan.setEngines("gasoline engine");
+        System.out.println(sedan.getInfo());
+        System.out.println(sedan.getDrives());
+        System.out.println(sedan.getEngines());
+        System.out.println(sedan.gas());
+        System.out.println(sedan.brake());
+
+        Truck truck = new Truck();
+        truck.setModel("Scania R580");
+        truck.setColor("white");
+        truck.setMaxSpeed(110);
+        truck.setBodyType("van");
+        truck.setCarryingCapacity(75);
+        System.out.println(truck.getInfo());
+        System.out.println(truck.cargo());
+        System.out.println(truck.gas());
+        System.out.println(truck.brake());
     }
 }

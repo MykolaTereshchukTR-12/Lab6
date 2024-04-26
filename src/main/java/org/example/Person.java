@@ -28,11 +28,11 @@ public class Person {
 
     public Person(){}
 
-    public String move(){
+    public String move() {
         return fullName + ", who is " + age + " years old, runs, jumps, walks and has fun!";
     }
 
-    public String talk(){
+    public String talk() {
         return fullName + ", who is " + age + " years old, smiles, talks, jokes and grinds his tongue!";
     }
 }
