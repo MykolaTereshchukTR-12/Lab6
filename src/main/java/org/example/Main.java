@@ -49,10 +49,18 @@ public class Main {
         truck.setColor("white");
         truck.setMaxSpeed(110);
         truck.setBodyType("van");
-        truck.setCarryingCapacity(75);
+        truck.setCarryingCapacity(50);
         System.out.println(truck.getInfo());
         System.out.println(truck.cargo());
         System.out.println(truck.gas());
         System.out.println(truck.brake());
+
+        //Task 5.
+        ComplexNumbers complexNumbers = new ComplexNumbers();
+        complexNumbers.setRealPart(2);
+        complexNumbers.setImagePart(2);
+        System.out.println(complexNumbers.getNumber());
+        System.out.println(complexNumbers.getModule());
+        System.out.println(complexNumbers.getArgument());
     }
 }
