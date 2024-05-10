@@ -10,7 +10,7 @@ public class Main {
     private int _control = 0;
 
     public static void main(String[] args) {
-        //Initialization of required objects to prevent accumulation of unnecessary objects.
+        //Initialization of required objects to prevent accumulation of unnecessary object.
         Main main = new Main();
         ComplexNumbers complexNumbers1 = new ComplexNumbers();
         ComplexNumbers complexNumbers2 = new ComplexNumbers();
@@ -22,7 +22,7 @@ public class Main {
 
 
 
-        //Start the program
+        //Start the program:
         System.out.println("\n=) Hello! This is a program that performs the tasks of laboratory work in the discipline \"Object Oriented Programming\". " +
                 "Let's start work!!!)");
         System.out.println(main.help());
